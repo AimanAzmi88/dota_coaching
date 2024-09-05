@@ -38,9 +38,9 @@ const Booking = () => {
               <p className="text-gray-700 mb-1"><strong>Timestamp:</strong> {formatTimestamp(slot.timestamp)}</p>
               <p className="text-gray-700 mb-1"><strong>Posted By:</strong> {slot.username}</p>
               {slot.status ? (
-                        <div className="w-1/4 py-1 mt-4 px-2 rounded bg-green-400">Complete</div>
+                        <div className="mt-3 px-2 rounded h-8 bg-green-400">Complete</div>
                     ) : (
-                        <div className="w-1/4 py-1 mt-4 px-2 rounded bg-yellow-400">On Going</div>
+                        <div className="mt-3 px-2 rounded h-8 bg-yellow-400">On Going</div>
                     )}
             </div>
           ))

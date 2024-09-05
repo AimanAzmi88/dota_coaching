@@ -81,7 +81,7 @@ const UserBookedSlot = () => {
             {slot.status && (
             <button
               onClick={() => handleDelete(slot.id)}
-              className="py-1 px-3 mx-2 bg-red-500 text-white border border-red-700 rounded hover:bg-red-700 transition-colors duration-300"
+              className="py-1 px-3 mx-2 bg-red-500 rounded hover:bg-red-700"
             >
               Delete
             </button>
