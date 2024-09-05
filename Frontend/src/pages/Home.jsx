@@ -12,8 +12,8 @@ const Home = () => {
     <div className="flex flex-col items-center w-full min-h-screen bg-custom-gradient gap-4 pb-6">
       <div className="max-w-screen-lg w-full flex flex-col sm:flex-row justify-between items-center p-4">
         <div className="flex items-center mb-4 sm:mb-0">
-          <GiPunch className="text-white text-6xl sm:text-8xl" />
-          <h1 className="text-white text-3xl sm:text-4xl font-bold italic tracking-widest ml-2">B4B</h1>
+          <GiPunch className=" text-6xl sm:text-8xl" />
+          <h1 className=" text-3xl sm:text-4xl font-bold italic ml-2">Rage Click</h1>
         </div>
         <div className="flex gap-3">
           <a href="https://www.instagram.com/odpixel_/"><AiFillInstagram className="text-white text-2xl hover:text-button" /></a>

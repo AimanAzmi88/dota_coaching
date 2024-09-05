@@ -14,7 +14,7 @@ const ToggleDiv = () => {
       <div className="flex w-full h-full justify-end items-center">
         {isLeft ? <LoginUser /> : <RegisterUser />}
       </div>
-      {isLeft ? <p>takda akaun?</p>:<p>dah ada akaun?</p>}
+      {isLeft ? <p>Do not have an account yet?</p>:<p>Already have an account?</p>}
       <button
         onClick={togglePosition}
         className=" bg-button m-4 px-6 py-4 hover:bg-buttonh text-black font-bold"
