@@ -11,13 +11,7 @@ const PORT = 3000
 
 app.use(express.json());
 app.use(express.urlencoded({ extended : true }));
-// app.use(cors({
-//     origin: 'https://dota-coaching.vercel.app/', // frontend URL
-//     methods: ['GET', 'POST', 'PUT', 'DELETE'], // allowed HTTP methods
-//     allowedHeaders: ['Content-Type', 'Authorization'] // allowed headers
-//   }));
-  app.use(cors());
-// app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors());
 
 databaseInit();
 app.get('/', healthController.get);
