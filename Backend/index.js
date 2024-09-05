@@ -12,7 +12,7 @@ const PORT = 3000
 app.use(express.json());
 app.use(express.urlencoded({ extended : true }));
 app.use(cors({
-    origin: 'https://final-project-chi-indol.vercel.app', // frontend URL
+    origin: 'https://dota-coaching.vercel.app/', // frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // allowed HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization'] // allowed headers
   }));
